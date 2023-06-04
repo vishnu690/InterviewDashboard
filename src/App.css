@@ -1,0 +1,643 @@
+@font-face {
+  font-family: QuickSand;
+  src: url(../public/assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+.App {
+  text-align: center;
+  font-family: QuickSand;
+}
+
+.logo {
+  position: absolute;
+  width: 104px;
+  height: 38px;
+  left: 33px;
+  top: 19px;
+  background: url(../public/assets/images/logo.png);
+}
+.Rectangle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1317px;
+  height: 68px;
+  left: 219px;
+  top: 0px;
+  background: #fafafa;
+  border: 1px solid #fafafa;
+  border-radius: 0px;
+}
+.Dashboard_listitem {
+  position: absolute;
+  width: 95px;
+  height: 324px;
+  left: 67px;
+  top: 104px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.Reactngle2 {
+  position: absolute;
+  width: 220px;
+  height: 712px;
+  left: 0px;
+  top: 0px;
+  background: #0b3366;
+  border-radius: 0px;
+}
+.Rectangle_687 {
+  position: absolute;
+  width: 219px;
+  height: 32px;
+  left: 220px;
+  top: 98px;
+  background: #082a56;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.dashboard_2 {
+  position: absolute;
+  width: 20px;
+  height: 19.7px;
+  left: 10px;
+  top: 104px;
+  background: url(./Components/Dashboard/assets/dashboard.png);
+}
+.Dashboard_label {
+  position: absolute;
+  width: 95px;
+  height: 324px;
+  left: 20px;
+  top: 104px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.Project {
+  position: absolute;
+  width: 74px;
+  height: 24px;
+  left: 257px;
+  top: 70px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.Rectangle_559 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1239px;
+  height: 78px;
+  left: 257px;
+  top: 155px;
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+}
+.Adidas_Mobile {
+  position: absolute;
+  width: 94px;
+  height: 15px;
+  left: 50px;
+  top: 3px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.Campaigns {
+  position: absolute;
+  width: 70px;
+  height: 14px;
+  left: 380px;
+  top: -11px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #c6c6c6;
+}
+.Channels {
+  position: absolute;
+  width: 58px;
+  height: 14px;
+  left: 580px;
+  top: -11px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #c6c6c6;
+}
+.Last_Edited_by {
+  position: absolute;
+  width: 87px;
+  height: 14px;
+  left: 800px;
+  top: -11px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #c6c6c6;
+}
+.Last_Edited_on {
+  position: absolute;
+  width: 87px;
+  height: 14px;
+  left: 1001px;
+  top: -11px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #c6c6c6;
+}
+.eight {
+  position: absolute;
+  width: 9px;
+  height: 15px;
+  left: 380px;
+  top: 30px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.divi {
+  position: absolute;
+  width: 28px;
+  height: 15px;
+  left: 580px;
+  top: 30px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.Varun {
+  position: absolute;
+  width: 39px;
+  height: 15px;
+  left: 800px;
+  top: 30px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+._5_hours_ago {
+  position: absolute;
+  width: 79px;
+  height: 15px;
+  left: 1001px;
+  top: 30px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.Rectangle_180 {
+  position: absolute;
+  width: 393px;
+  height: 195px;
+  left: 258px;
+  top: 246px;
+
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  border-radius: 2px;
+}
+.Rectangle_183 {
+  position: absolute;
+  width: 384px;
+  height: 195px;
+  left: 667px;
+  top: 246px;
+
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  border-radius: 2px;
+}
+.Rectangle_178 {
+  position: absolute;
+  width: 429px;
+  height: 262px;
+  left: 1067px;
+  top: 246px;
+
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  border-radius: 2px;
+}
+.Rectangle_179 {
+  position: absolute;
+  width: 393px;
+  height: 206px;
+  left: 258px;
+  top: 455px;
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  border-radius: 2px;
+}
+.Rectangle_179copy {
+  position: absolute;
+  width: 393px;
+  height: 206px;
+  left: 667px;
+  top: 455px;
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  border-radius: 2px;
+}
+.Rectangle_192 {
+  position: absolute;
+  width: 429px;
+  height: 139px;
+  left: 1067px;
+  top: 522px;
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  border-radius: 2px;
+}
+.Rectangle_372 {
+  position: absolute;
+  width: 1317px;
+  height: 30px;
+  left: 219px;
+  top: 682px;
+  background: #ffffff;
+  border-radius: 0px;
+}
+.footerText {
+  position: absolute;
+  width: 136px;
+  height: 12px;
+  top: 5px;
+  left: 580px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 13px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #909090;
+}
+.General_Information {
+  position: absolute;
+  width: 140px;
+  height: 16px;
+  left: 20px;
+  top: 3px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+.card1_label1 {
+  position: absolute;
+  width: 58px;
+  height: 115px;
+  left: 20px;
+  top: 30px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 218%;
+  /* or 31px */
+  color: #909090;
+}
+.Rectangle_184 {
+  position: absolute;
+  width: 210px;
+  height: 15px;
+  left: 100px;
+  top: 50px;
+  background: #ededed;
+  border-radius: 20px;
+}
+.Rectangle_188 {
+  position: absolute;
+  width: 67px;
+  height: 15px;
+  background: #0b3366;
+  border-radius: 20px;
+}
+.twobyten {
+  position: absolute;
+  width: 32px;
+  height: 132px;
+  left: 230px;
+  top: -9px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 273.9%;
+  /* or 33px */
+
+  color: #909090;
+}
+.row2 {
+  position: absolute;
+  top: 30px;
+}
+.row3 {
+  position: absolute;
+  top: 60px;
+}
+
+.row4 {
+  position: absolute;
+  top: 90px;
+}
+
+.Rectangle_185 {
+  position: absolute;
+  width: 210px;
+  height: 15px;
+  background: #0b3366;
+  border-radius: 20px;
+}
+
+.Rectangle_191 {
+  position: absolute;
+  width: 105px;
+  height: 15px;
+  background: #0b3366;
+  border-radius: 20px;
+}
+.card1_label1 {
+  letter-spacing: 0, 5px;
+}
+.Live_Statistics {
+  position: absolute;
+  width: 140px;
+  height: 16px;
+  left: 20px;
+  top: 3px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.headset {
+  position: absolute;
+  width: 26.61px;
+  height: 24px;
+  left: 1110px;
+  top: 21.81px;
+  background: url(./Components/Dashboard/assets/headset.png);
+  opacity: 0.7;
+}
+.notification {
+  position: absolute;
+  width: 23.38px;
+  height: 23.38px;
+  left: 1180px;
+  top: 21.81px;
+  background: url(./Components/Dashboard/assets/notification.png);
+  opacity: 0.7;
+}
+.account {
+  position: absolute;
+  width: 26.61px;
+  height: 24px;
+  left: 1240px;
+  top: 21.81px;
+  background: url(./Components/Dashboard/assets/account.png);
+  opacity: 0.7;
+}
+.Ellipse_16 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 40.21px;
+  top: 50.88px;
+  background: #ededed;
+  border-radius: 100%;
+  transform: matrix(0.98, 0.17, 0.17, -0.98, 0, 0);
+}
+.Ellipse_17 {
+  position: absolute;
+  width: 140px;
+  height: 16px;
+  left: 20px;
+  top: 3px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+.five {
+  position: absolute;
+  width: 19px;
+  height: 20px;
+  left: 729px;
+  top: 331px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #909090;
+}
+
+.Ellipse_15 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 150px;
+  border-radius: 100%;
+  top: 50px;
+  background: #0b3366;
+  transform: rotate(90deg);
+}
+.Ellipse_14 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 899px;
+  top: 31px;
+  background: #ededed;
+  border-radius: 2px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Ellipse_13 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 260px;
+  border-radius: 100%;
+  top: 50px;
+  background: #ededed;
+  transform: rotate(90deg);
+}
+.Rectangle_622 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 60px;
+  height: 22.22px;
+  left: 52.21px;
+  top: 150.88px;
+  background: #ffffff;
+  border: 1px solid rgba(13, 109, 228, 0.5);
+  border-radius: 2px;
+}
+
+.info_label {
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  top: 3px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+
+  color: #0c66d6;
+}
+
+.Rectangle_623 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 60px;
+  height: 22.22px;
+  left: 52.21px;
+  top: 150.88px;
+  background: #ffffff;
+  border: 1px solid rgba(13, 109, 228, 0.5);
+  border-radius: 2px;
+}
+.warning_label {
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  top: 3px;
+  left: 5px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  /* identical to box height */
+  color: #0c66d6;
+}
+.Rectangle_624 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 60px;
+  height: 22.22px;
+  left: 52.21px;
+  top: 150.88px;
+  background: #ffffff;
+  border: 1px solid rgba(13, 109, 228, 0.5);
+  border-radius: 2px;
+}
+.error_label {
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  top: 3px;
+  left: 118px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  /* identical to box height */
+  color: #0c66d6;
+}
+
+.Rectangle_182 {
+  position: absolute;
+  width: 429px;
+  height: 210px;
+  left: 2px;
+  top: 50px;
+  background: url(./Components/Dashboard/assets/map.png);
+  border-radius: 2px;
+}
+
+.location-icon-png-4226 {
+  position: absolute;
+  width: 80px;
+  height: 12px;
+  left: 100px;
+  top: 20px;
+  background: url(./Components/Dashboard/assets/pin1.png);
+}
